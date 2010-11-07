@@ -1,0 +1,19 @@
+{
+  "name": "X",
+  "description": "X.",
+  // "icons": {
+  //     "128": "icon128.png",
+  //     "48": "icon48.png",
+  //     "32": "icon32.png",
+  //     "16": "icon16.png"
+  // },
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*", "file:///*"],
+    "js": ["content_script.js"],
+    "css": ["content_script.css"],
+    "run_at": "document_end",
+    "all_frames": false
+  }],
+  "permissions": ["tabs", "http://*/*", "https://*/*"]
+}
