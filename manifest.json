@@ -1,12 +1,12 @@
 {
-  "name": "X",
-  "description": "X.",
-  // "icons": {
-  //     "128": "icon128.png",
-  //     "48": "icon48.png",
-  //     "32": "icon32.png",
-  //     "16": "icon16.png"
-  // },
+  "name": "pagiborder",
+  "description": "When paginating with the space bar indicates the previous location of the page border.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "32": "icon32.png",
+      "16": "icon16.png"
+   },
   "version": "0.1",
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*", "file:///*"],
